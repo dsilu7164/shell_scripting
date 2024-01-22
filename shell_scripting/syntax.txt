@@ -1,0 +1,60 @@
+syntax for conditional statement :-
+
+if condition
+-------------
+if [ condition ];
+then 
+     statement
+     fi
+
+ifelse condition
+-----------------
+if [ condition ];
+then 
+    statement
+else
+    statement
+    fi
+
+if - elif condition
+-------------------
+if [ condition ];
+then
+    statement
+elif [ condition ];
+then
+    statement
+else
+   statement
+   fi
+
+syntax for Looping statement :-
+----------------------------
+for Loop
+---------
+for variablename in list
+do
+  statment1
+  statement2
+done
+
+
+while Loop
+----------
+while [ condition ]
+do 
+  statement1
+  statement2
+done
+
+note-while  loop condition takes True value
+
+until Loop
+-----------
+until [ condition ]
+do 
+   statement1
+   statement2
+done
+
+note-until loop condition takes False value
