@@ -58,3 +58,15 @@ do
 done
 
 note-until loop condition takes False value
+
+
+
+case-statement
+---------------
+case expression in
+"case1") statement ;;
+"case2") statement ;;
+-----
+-----
+*) statement ;;
+esac
